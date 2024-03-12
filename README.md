@@ -26,11 +26,11 @@ También puede aumentar fácilmente el conocimiento específico del dominio sobr
 ### Contenido
 
 - [Cómo funciona](#como-funciona)
-- [Demostración](#demostracion)
-- [Funciones](#funciones)
-- [Configuración del bot](#comportamiento-del-robot)
+- [Demostración](#demostración)
+- [Características](#características)
+- [Comportamiento del bot](#comportamiento-del-bot)
 - [Requisitos](#requisitos)
-- [Estructura del proyecto](#estructura-proyecto)
+- [Estructura del proyecto](#estructura-del-proyecto)
 - [Instalación](#instalación)
 - [Configuración](#configuración)
 - [Personalización](#personalización)
@@ -59,7 +59,7 @@ Este tutorial proporciona una implementación completa de un chatbot de IA con t
 - Permite que cualquier usuario solicite hablar con un humano, en cuyo caso el chat se asignará a un agente y se saldrá del flujo del bot.
 - El comportamiento del bot AI se puede ajustar fácilmente en el [archivo de configuración] (config.js)
 
-### Comportamiento del robot
+### Comportamiento del bot
 
 El bot de IA siempre responderá a los mensajes entrantes según los siguientes criterios:
 
@@ -93,7 +93,7 @@ El bot de IA siempre responderá a los mensajes entrantes según los siguientes 
   |- node_modules -> donde se instalarán las dependencias del proyecto, administradas por npm
 ```
 
-### Instalación
+### Installación
 
 Si tiene [git](https://git-scm.org) instalado, ejecute el siguiente comando desde la Terminal:
 
@@ -108,12 +108,12 @@ Si no tiene `git`, descargue las fuentes del proyecto [usando este enlace](https
 Abra su terminal favorita y cambie el directorio a la carpeta del proyecto donde se encuentra `package.json`:
 
 ```
-cd ~/Descargas/whatsapp-chatgpt-chatbot/
+cd ~/whatsapp-chatgpt-chatbot
 ```
 
 Desde esa carpeta, instale las dependencias ejecutando:
 ```git
-instalación npm
+npm install
 ```
 
 Con su editor de código preferido, abra el archivo [`config.js`](config.js) y siga los pasos a continuación.
