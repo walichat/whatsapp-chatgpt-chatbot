@@ -1,8 +1,8 @@
-## Tutorial de chatbot de IA con tecnología WhatsApp ChatGPT 🤖 🤖
+## Tutorial de WhatsApp Chatbot con IA basado en ChatGPT para tu negocio 🤖
 
-**Convierta su número de WhatsApp en un potente chatbot con IA impulsado por ChatGPT en minutos con este tutorial utilizando la [API WaliChat](https://wali.chat).**
+**Convierta su número de WhatsApp en un potente chatbot con IA impulsado por ChatGPT en minutos con este tutorial utilizando la [API de WaliChat](https://wali.chat).**
 
-[![Abrir en Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/walichat/whatsapp-chatgpt-bot)
+[![Abrir en Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/walichat/whatsapp-chatgpt-chatbot)
 
 Tenga un potente chatbot de IA ejecutándose en minutos en su computadora o servidor y ajústelo fácilmente para cubrir sus propios casos de uso comercial.
 
@@ -98,17 +98,17 @@ El bot de IA siempre responderá a los mensajes entrantes según los siguientes 
 Si tiene [git](https://git-scm.org) instalado, ejecute el siguiente comando desde la Terminal:
 
 ```git
-clon de git https://github.com/walichat/whatsapp-chatgpt-bot.git
+clon de git https://github.com/walichat/whatsapp-chatgpt-chatbot.git
 ```
 
-Si no tiene `git`, descargue las fuentes del proyecto [usando este enlace](https://github.com/walichat/whatsapp-chatgpt-bot/download) y descomprímalo.
+Si no tiene `git`, descargue las fuentes del proyecto [usando este enlace](https://github.com/walichat/whatsapp-chatgpt-chatbot/download) y descomprímalo.
 
 ### Configuración
 
 Abra su terminal favorita y cambie el directorio a la carpeta del proyecto donde se encuentra `package.json`:
 
 ```
-cd ~/Descargas/whatsapp-chatgpt-bot/
+cd ~/Descargas/whatsapp-chatgpt-chatbot/
 ```
 
 Desde esa carpeta, instale las dependencias ejecutando:
