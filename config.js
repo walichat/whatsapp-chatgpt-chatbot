@@ -1,39 +1,39 @@
 const { env } = process
 
 // Default message when the user sends an unknown message.
-const unknownCommandMessage = `I'm sorry, I can only understand text. Can you please describe your query?
+const unknownCommandMessage = `Lo siento, sólo puedo entender texto. ¿Puede describir su consulta?
 
-If you would like to chat with a human, just reply with *human*.`
+Si desea hablar con un humano, simplemente responda con *humano*.`
 
 // Default welcome message. Change it as you need.
-const welcomeMessage = `Hey there 👋 Welcome to this ChatGPT-powered AI chatbot demo using *WaliChat API*! I can also speak many languages 😁`
+const welcomeMessage = `Hola, 👋 ¡Bienvenido a esta demostración de chatbot de IA impulsado por ChatGPT que utiliza *WaliChat API*! También puedo hablar muchos idiomas 😁`
 
 // AI bot instructions to adjust its bevarior. Change it as you need.
 // Use concise and clear instructions.
-const botInstructions = `You are a smart virtual customer support assistant who works for WaliChat.
-You can identify yourself as Molly, the WaliChat chatbot assistant.
-You will be chatting with random customers who may contact you with general queries about the product.
-WaliChat is a cloud solution that offers WhatsApp API and multi-user live communication services designed for businesses and developers.
-WaliChat also enables customers to automate WhatsApp communication and build chatbots.
-You are an expert customer support agent.
-Be polite. Be gentle. Be helpful. Be emphatic. Be concise in your responses.
-Politely reject any queries that are not related to customer support or WaliChat itself.
-Strictly stick to your role as customer support virtual assistant for WaliChat.
-If you can't help with something, ask the user to type *human* in order to talk with customer support.`
+const botInstructions = `Eres un asistente virtual inteligente de atención al cliente que trabaja para WaliChat.
+Puedes identificarte como Molly, la asistente del chatbot de WaliChat.
+Charlará con clientes aleatorios que pueden comunicarse con usted con consultas generales sobre el producto.
+WaliChat es una solución en la nube que ofrece API de WhatsApp y servicios de comunicación en vivo multiusuario diseñados para empresas y desarrolladores.
+WaliChat también permite a los clientes automatizar la comunicación de WhatsApp y crear chatbots.
+Eres un agente experto en atención al cliente.
+Ser cortés. Sé gentil. Sea útil. Sea enfático. Sea conciso en sus respuestas.
+Rechace cortésmente cualquier consulta que no esté relacionada con la atención al cliente o con WaliChat.
+Cíñete estrictamente a tu función de asistente virtual de atención al cliente de WaliChat.
+Si no puede ayudar con algo, pídale al usuario que escriba *humano* para hablar con atención al cliente.`
 
 // Default help message. Change it as you need.
-const defaultMessage = `Don't be shy 😁 try asking anything to the AI chatbot, using natural language!
+const defaultMessage = `No seas tímido 😁 ¡intenta preguntarle cualquier cosa al chatbot de IA, usando lenguaje natural!
 
-Example queries:
+Consultas de ejemplo:
 
-1️⃣ Explain me what is WaliChat
-2️⃣ Can I use WaliChat to send automatic messages?
-3️⃣ Can I schedule messages using WaliChat?
-4️⃣ Is there a free trial available?
+1️⃣ Explícame qué es WaliChat
+2️⃣ ¿Puedo usar WaliChat para enviar mensajes automáticos?
+3️⃣ ¿Puedo programar mensajes usando WaliChat?
+4️⃣ ¿Hay una prueba gratuita disponible?
 
-Type *human* to talk with a person. The chat will be assigned to an available member of the team.
+Escribe *humano* para hablar con una persona. El chat se asignará a un miembro disponible del equipo.
 
-Give it a try! 😁`
+¡Darle una oportunidad! 😁`
 
 // Optional. AI callable functions to be interpreted by the AI
 // Using it you can instruct the AI to inform you to execute arbitrary functions
@@ -44,7 +44,7 @@ Give it a try! 😁`
 const openaiFunctions = [
   {
     name: 'getPlanPrices',
-    description: 'Get available plans and prices information available in WaliChat',
+    description: 'Obtener información de planes y precios disponibles disponibles en WaliChat',
     parameters: { type: 'object', properties: {} }
   }
 ]
@@ -58,16 +58,16 @@ const openaiFunctions = [
 const functions = {
   async getPlanPrices ({ response, data, device, messages }) {
     const message = [
-      '*Send & Receive messages + API + Webhooks + Live Team Chat + CRM + Analytics*',
+      '*Enviar y recibir mensajes + API + Webhooks + Chat de equipo en vivo + CRM + Análisis*',
       '',
-      '- Platform Professional: up to 30,000 outbound + unlimited inbound messages',
-      '- Platform Business: up to 60,000 outbound + unlimited inbound messages',
-      '- Platform Enterprise: unlimited: unlimited outbound + inbound messages',
+      '- Profesional: hasta 30.000 mensajes salientes + entrantes ilimitados',
+      '- Negocios: hasta 60.000 mensajes salientes + entrantes ilimitados',
+      '- Enterprise: ilimitado: mensajes salientes + entrantes ilimitados',
       '',
-      'Each plan is limited to one WhatsApp number. You can purchase multiple plans for multiple numbers.',
+      'Cada plan está limitado a un número de WhatsApp. Puedes comprar múltiples planes para múltiples números.',
       '',
-      '*Find more information about the different plan prices and features here:*',
-      'https://wali.chat/#pricing'
+      '*Encuentre más información sobre los diferentes precios y características de los planes aquí:*',
+      'https://wali.chat/#precios'
     ].join('\n')
     return message
   }

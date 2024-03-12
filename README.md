@@ -17,8 +17,6 @@ También puede aumentar fácilmente el conocimiento específico del dominio sobr
 
 👉 *[Lea el tutorial del blog aquí](https://medium.com/@walichat/build-a-whatsapp-chatgpt-powered-ai-chatbot-for-your-business-595a60eb17da)*
 
-👉 *[Ejecute el programa bot directamente desde su navegador web](https:///pr.new/walichat/whatsapp-chatgpt-bot)* 🤩 💻
-
 > 🤩 🤖 [**WaliChat es una solución completa en la nube API de WhatsApp. ¡Regístrese gratis y comience en minutos!**](https://wali.chat)
 
 <a href="https://wali.chat">
@@ -41,7 +39,7 @@ También puede aumentar fácilmente el conocimiento específico del dominio sobr
 
 ### Demostración
 
-![demostración](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*p-noYzcPwiaX4w8wYzJCyQ.jpeg)
+![demostración](/demo.jpg)
 
 ### Cómo funciona
 
