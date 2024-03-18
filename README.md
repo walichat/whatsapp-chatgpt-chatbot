@@ -75,9 +75,9 @@ El bot de IA siempre responderá a los mensajes entrantes según los siguientes 
 - [Node.js](https://nodejs.org) >= v16 ([descárgalo aquí](https://nodejs.org/en/download))
 - [WhatsApp](https://whatsapp.com) Número personal o comercial
 - [Clave API de OpenAI](https://platform.openai.com/account/api-keys) - [Regístrese gratis](https://platform.openai.com/signup)
-- [WaliChat](https://wali.chat) Clave API - [Regístrese gratis](https://app.wali.chat/register)
-- [Conecte su WhatsApp](https://app.wali.chat/create) Número personal o comercial a WaliChat
-- [Regístrese para obtener una cuenta gratuita de Ngrok](https://dashboard.ngrok.com/signup) para crear un túnel de webhook (solo si ejecuta el programa en su computadora local)
+- [Clave API de WaliChat](https://wali.chat/developers/apikeys) - [Regístrese gratis](https://app.wali.chat/register)
+- [Conecta su WhatsApp](https://app.wali.chat/create) Personal o Business a [WaliChat](https://wali.chat)
+- [Regístrate en Ngrok](https://dashboard.ngrok.com/signup) para crear un túnel de webhook (solo si ejecutas el programa en tu computadora)
 
 ### Estructura del proyecto
 
